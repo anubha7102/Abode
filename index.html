@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abode</title>
+
+  
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+
+  <body>
+
+
+    <header class="header" data-header>
+      <div class="overlay" data-overlay></div>
+
+      <div class="logo-top">
+        <div class="box">
+          <ul class="logo-top-list">
+            <li>
+              <a href="mailto:abode@gmail.com" class="logo-top-link">
+                <ion-icon name="icon-mail"></ion-icon>
+
+                <span>abode@gmail.com</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="logo-top-link">
+                <ion-icon name="icon-location"></ion-icon>
+
+                <address>403, sitapura, jaipur</address>
+              </a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <ul class="logo-top-social-list">
+              <li>
+                <a href="" class="logo-top-social-link">
+                  <ion-icon name="facebook-icon"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="logo-top-social-link">
+                  <ion-icon name="twitter-icon"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="logo-top-social-link">
+                  <ion-icon name="instagram-icon"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="logo-top-social-link">
+                  <ion-icon name="pinterest-icon"></ion-icon>
+                </a>
+              </li>
+            </ul>
+
+            <a href="login.php" class="logo-top-btn">LogIn/SignUp</a>
+            <a href="contact.php" class="logo-top-btn">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="abode-logo">
+        <div class="box">
+          <a href="" class="logo" id="logo3">
+            <img src="logo1.png" alt="abode logo" />
+          </a>
+
+          <nav class="navbar" data-navbar id="navbar">
+            <div class="navbar-top">
+              <a href="javascript:void(0);" class="icon">
+              </a>
+            </div>
+
+            <div class="navbar-bottom">
+              <ul class="navbar-list">
+                <li>
+                  <a href="home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+
+                <li>
+                  <a href="about" class="navbar-link" data-nav-link>AboutUs</a>
+                </li>
+
+                <li>
+                  <a href="service" class="navbar-link" data-nav-link
+                    >Service</a
+                  >
+                </li>
+
+                <li>
+                  <a href="property" class="navbar-link" data-nav-link
+                    >Property</a
+                  >
+                </li>
+
+                <li>
+                  <a href="blogs" class="navbar-link" data-nav-link>Blogs</a>
+                </li>
+
+                <li>
+                  <a href="contact" class="navbar-link" data-nav-link
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="abode-logo-actions">
+            <button class="abode-logo-icons" aria-label="Search">
+              <ion-icon name="search-outline"></ion-icon>
+
+              <span>Search</span>
+            </button>
+
+            <button class="abode-logo-icons" aria-label="Profile">
+              <ion-icon name="person-outline"></ion-icon>
+
+              <span>Profile</span>
+            </button>
+
+            <button class="abode-logo-icons" aria-label="Cart">
+              <ion-icon name="cart-outline"></ion-icon>
+
+              <span>Cart</span>
+            </button>
+
+            <button
+              class="abode-logo-icons"
+              data-nav-open-btn
+              aria-label="Open Menu"
+              onclick="myFunction()"
+            >
+              <ion-icon name="menu-outline"></ion-icon>
+
+              <span>Menu</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+     
+
+        <section class="hero" id="home">
+          <div class="box">
+            <div class="hero-content">
+              <p class="hero-subtitle">
+                <ion-icon name="home"></ion-icon>
+
+                <span>Abode</span>
+              </p>
+
+              <h2 class="h1 hero-title">Your Dream Home is Here</h2>
+
+              <p class="hero-text">
+                Abode provides fully furnished homes in a very low price. Visit for your dream home.
+              </p>
+
+              <button class="btn">Search With Us</button>
+            </div>
+
+            <figure class="house-img">
+              <img src="house5.jpg" alt="house1" class="width" />
+            </figure>
+          </div>
+        </section>
+
+       
+
+        <section class="about" id="about">
+          <div class="box">
+            <figure class="about-banner">
+              <img src="house7.jpg" alt="House Picture" />
+            </figure>
+
+            <div class="about-content">
+              <p class="subtitle">AboutUs</p>
+
+              <h2 class="h2 section-title">Leading Rental Website - Abode</h2>
+
+              <p class="about-text">
+                We work on a global region with a good number of team members.
+                More than 20,894 people got benefit from us.
+              </p>
+
+              <ul class="aboutus-list">
+                <li class="aboutus-item">
+                  <div class="aboutus-item-icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                  </div>
+
+                  <p class="aboutus-item-text">Modular Houses</p>
+                </li>
+
+                <li class="aboutus-item">
+                  <div class="aboutus-item-icon">
+                    <ion-icon name="leaf-outline"></ion-icon>
+                  </div>
+
+                  <p class="aboutus-item-text">Eco-Friendly Environment</p>
+                </li>
+
+                <li class="aboutus-item">
+                  <div class="aboutus-item-icon">
+                    <ion-icon name="wine-outline"></ion-icon>
+                  </div>
+
+                  <p class="aboutus-item-text">Healthy Lifestyle</p>
+                </li>
+
+                <li class="aboutus-item">
+                  <div class="aboutus-item-icon">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                  </div>
+
+                  <p class="aboutus-item-text">High Security</p>
+                </li>
+              </ul>
+
+              <a href="service" class="btn">Our Services</a>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="service" id="service">
+          <div class="box">
+            <p class="subtitle">Our Services</p>
+
+            <h2 class="h2 section-title">Services Provided By Us</h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-ticket">
+                  <h3 class="h3 ticket-title">
+                    <a href="">Buy a House</a>
+                  </h3>
+
+                  <p class="ticket-text">
+                    We have more than 5000 results that matches to your
+                    requirement.
+                  </p>
+
+                  <a href="" class="ticket-link">
+                    <span>Know More</span>
+
+                    <ion-icon name="arrow"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-ticket">
+                  <h3 class="h3 ticket-title">
+                    <a href="">House for Rent</a>
+                  </h3>
+
+                  <p class="ticket-text">
+                    If you wish to find your dream house on rent. Complete your
+                    search.
+                  </p>
+
+                  <a href="" class="ticket-link">
+                    <span>Know More</span>
+
+                    <ion-icon name="arrow"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-ticket">
+                  <h3 class="h3 ticket-title">
+                    <a href="">House for sell</a>
+                  </h3>
+
+                  <p class="ticket-text">
+                    Over 3000 results are found that matches to your
+                    requirement.
+                  </p>
+
+                  <a href="" class="ticket-link">
+                    <span>Learn More</span>
+
+                    <ion-icon name="arrow"></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+        <section class="property" id="property">
+          <div class="box">
+            <p class="subtitle">Properties</p>
+
+            <h2 class="h2 section-title">Featured Listings</h2>
+
+            <ul class="property-list has-scrollbar">
+              <li>
+                <div class="property-ticket">
+                  <figure class="ticket-banner">
+                    <a href="">
+                      <img src="house2.jpg" alt="house2" class="width" />
+                    </a>
+
+                    <div class="ticket-badge green">Available</div>
+
+                    <div class="banner-actions">
+                      <button class="banner-actions-btn">
+                        <ion-icon name="location"></ion-icon>
+
+                        <address>Patrika Gate, Jaipur, India</address>
+                      </button>
+
+                      <button class="banner-actions-btn">
+                        <ion-icon name="camera"></ion-icon>
+
+                        <span>1</span>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="ticket-content">
+                    <div class="ticket-price">
+                      <strong>20,700</strong>/Month
+                    </div>
+
+                    <h3 class="h3 ticket-title">
+                      <a href="">Fully Furnished</a>
+                    </h3>
+
+                    <p class="ticket-text">
+                      Fully Furnished, Joint Family House near Patrika Gate.
+                      Newly Renovated Rooms.
+                    </p>
+
+                    <ul class="ticket-list">
+                      <li class="ticket-item">
+                        <strong>3</strong>
+
+                        <ion-icon name="bed-outline"></ion-icon>
+
+                        <span>Large Rooms</span>
+                      </li>
+
+                      <li class="ticket-item">
+                        <strong>2</strong>
+
+                        <ion-icon name="man-outline"></ion-icon>
+
+                        <span>Bathrooms</span>
+                      </li>
+
+                      <li class="ticket-item">
+                        <strong>2448</strong>
+
+                        <ion-icon name="square-outline"></ion-icon>
+
+                        <span>Sq Feet</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="ticket-footer">
+                    <div class="ticket-landlord">
+                      <figure class="landlord-avatar">
+                        <img
+                          src="broker.jpg"
+                          alt="Lalu Singh"
+                          class="width"
+                        />
+                      </figure>
+
+                      <div>
+                        <p class="landlord-name">
+                          <a href="">Lalu Singh</a>
+                        </p>
+
+                        <p class="landlord-title">Abode Broker</p>
+                      </div>
+                    </div>
+
+                    <div class="ticket-footer-actions">
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="resize-outline"></ion-icon>
+                      </button>
+
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="property-ticket">
+                  <figure class="ticket-banner">
+                    <a href="">
+                      <img src="house3.jpg" alt="house3" class="width" />
+                    </a>
+
+                    <div class="ticket-badge orange">Sold</div>
+
+                    <div class="banner-actions">
+                      <button class="banner-actions-btn">
+                        <ion-icon name="location"></ion-icon>
+
+                        <address>Mansarovar, Jaipur, India</address>
+                      </button>
+
+                      <button class="banner-actions-btn">
+                        <ion-icon name="camera"></ion-icon>
+
+                        <span>1</span>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="ticket-content">
+                    <div class="ticket-price">
+                      <strong>30,000</strong>/Month
+                    </div>
+
+                    <h3 class="h3 ticket-title">
+                      <a href="">Wooden Architecture</a>
+                    </h3>
+
+                    <p class="ticket-text">
+                      Fully Furnished, Joint Family House in Mansarovar.
+                    </p>
+
+                    <ul class="ticket-list">
+                      <li class="ticket-item">
+                        <strong>6</strong>
+
+                        <ion-icon name="bed-outline"></ion-icon>
+
+                        <span>Large Rooms</span>
+                      </li>
+
+                      <li class="ticket-item">
+                        <strong>3</strong>
+
+                        <ion-icon name="man-outline"></ion-icon>
+
+                        <span>Bathrooms</span>
+                      </li>
+
+                      <li class="ticket-item">
+                        <strong>8626</strong>
+
+                        <ion-icon name="square-outline"></ion-icon>
+
+                        <span>Sq Feet</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="ticket-footer">
+                    <div class="ticket-landlord">
+                      <figure class="landlord-avatar">
+                        <img
+                          src="broker.jpg"
+                          alt="Lalu Singh"
+                          class="width"
+                        />
+                      </figure>
+
+                      <div>
+                        <p class="landlord-name">
+                          <a href="">Lalu Singh</a>
+                        </p>
+
+                        <p class="landlord-title">Abode Broker</p>
+                      </div>
+                    </div>
+
+                    <div class="ticket-footer-actions">
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="resize-outline"></ion-icon>
+                      </button>
+
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="property-ticket">
+                  <figure class="ticket-banner">
+                    <a href="">
+                      <img src="house4.jpg" alt="house4" class="width" />
+                    </a>
+
+                    <div class="ticket-badge green">Available</div>
+
+                    <div class="banner-actions">
+                      <button class="banner-actions-btn">
+                        <ion-icon name="location"></ion-icon>
+
+                        <address>Malviya Nagar, Jaipur, India</address>
+                      </button>
+
+                      <button class="banner-actions-btn">
+                        <ion-icon name="camera"></ion-icon>
+
+                        <span>1</span>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="ticket-content">
+                    <div class="ticket-price">
+                      <strong>26,789</strong>/Month
+                    </div>
+
+                    <h3 class="h3 ticket-title">
+                      <a href="">Comfortable Apartment</a>
+                    </h3>
+
+                    <p class="ticket-text">
+                      Fully Furnished, Joint Family House in Malviya Nagar. Made up
+                      of wood.
+                    </p>
+
+                    <ul class="ticket-list">
+                      <li class="ticket-item">
+                        <strong>3</strong>
+
+                        <ion-icon name="bed-outline"></ion-icon>
+
+                        <span>Large Rooms</span>
+                      </li>
+
+                      <li class="ticket-item">
+                        <strong>3</strong>
+
+                        <ion-icon name="man-outline"></ion-icon>
+
+                        <span>Bathrooms</span>
+                      </li>
+
+                      <li class="ticket-item">
+                        <strong>3450</strong>
+
+                        <ion-icon name="square-outline"></ion-icon>
+
+                        <span>Sq Feet</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="ticket-footer">
+                    <div class="ticket-landlord">
+                      <figure class="landlord-avatar">
+                        <img
+                          src="broker.jpg"
+                          alt="Lalu Singh"
+                          class="width"
+                        />
+                      </figure>
+
+                      <div>
+                        <p class="landlord-name">
+                          <a href="">Lalu Singh</a>
+                        </p>
+
+                        <p class="landlord-title">Abode Broker</p>
+                      </div>
+                    </div>
+
+                    <div class="ticket-footer-actions">
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="resize-outline"></ion-icon>
+                      </button>
+
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="property-ticket">
+                  <figure class="ticket-banner">
+                    <a href="">
+                      <img src="house5.jpg" alt="house5" class="width" />
+                    </a>
+
+                    <div class="ticket-badge green">Available</div>
+
+                    <div class="banner-actions">
+                      <button class="banner-actions-btn">
+                        <ion-icon name="location"></ion-icon>
+
+                        <address>Lalkothi, Jaipur, India</address>
+                      </button>
+
+                      <button class="banner-actions-btn">
+                        <ion-icon name="camera"></ion-icon>
+
+                        <span>1</span>
+                      </button>
+                    </div>
+                  </figure>
+
+                  <div class="ticket-content">
+                    <div class="ticket-price">
+                      <strong>25,900</strong>/Month
+                    </div>
+
+                    <h3 class="h3 ticket-title">
+                      <a href="">Transportation Available</a>
+                    </h3>
+
+                    <p class="ticket-text">
+                      Fully Furnished, Joint Family House near Lalkothi, Jaipur.
+                    </p>
+
+                    <ul class="ticket-list">
+                      <li class="ticket-item">
+                        <strong>3</strong>
+
+                        <ion-icon name="bed-outline"></ion-icon>
+
+                        <span>Large Rooms</span>
+                      </li>
+
+                      <li class="ticket-item">
+                        <strong>2</strong>
+
+                        <ion-icon name="man-outline"></ion-icon>
+
+                        <span>Bathrooms</span>
+                      </li>
+
+                      <li class="ticket-item">
+                        <strong>3450</strong>
+
+                        <ion-icon name="square-outline"></ion-icon>
+
+                        <span>Sq Feet</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="ticket-footer">
+                    <div class="ticket-landlord">
+                      <figure class="landlord-avatar">
+                        <img
+                          src="broker.jpg"
+                          alt="Lalu Singh"
+                          class="width"
+                        />
+                      </figure>
+
+                      <div>
+                        <p class="landlord-name">
+                          <a href="">Lalu Singh</a>
+                        </p>
+
+                        <p class="landlord-title">Abode Broker</p>
+                      </div>
+                    </div>
+
+                    <div class="ticket-footer-actions">
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="resize-outline"></ion-icon>
+                      </button>
+
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <button class="ticket-footer-actions-btn">
+                        <ion-icon name="add-circle-outline"></ion-icon>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+        <section class="Aminities">
+          <div class="box">
+            <p class="subtitle">Facilities Provided By Us</p>
+
+            <h2 class="h2 section-title">Building Aminities</h2>
+
+            <ul class="Aminities-list">
+              <li>
+                <a href="" class="Aminities-ticket">
+                  <div class="ticket-icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="ticket-title">Well Furnished Homes</h3>
+
+                  <div class="ticket-btn">
+                    <ion-icon name="arrow"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="Aminities-ticket">
+                  <div class="ticket-icon">
+                    <ion-icon name="library-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="ticket-title">Library</h3>
+
+                  <div class="ticket-btn">
+                    <ion-icon name="arrow"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="Aminities-ticket">
+                  <div class="ticket-icon">
+                    <ion-icon name="water-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="ticket-title">Swimming Pool</h3>
+
+                  <div class="ticket-btn">
+                    <ion-icon name="arrow"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="Aminities-ticket">
+                  <div class="ticket-icon">
+                    <ion-icon name="bed-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="ticket-title">King Size Beds</h3>
+
+                  <div class="ticket-btn">
+                    <ion-icon name="arrow"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="Aminities-ticket">
+                  <div class="ticket-icon">
+                    <ion-icon name="football-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="ticket-title">Playing Area</h3>
+
+                  <div class="ticket-btn">
+                    <ion-icon name="arrow"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="Aminities-ticket">
+                  <div class="ticket-icon">
+                    <ion-icon name="car-sport-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="ticket-title">Large Parking Space</h3>
+
+                  <div class="ticket-btn">
+                    <ion-icon name="arrow"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="Aminities-ticket">
+                  <div class="ticket-icon">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="ticket-title">Security</h3>
+
+                  <div class="ticket-btn">
+                    <ion-icon name="arrow"></ion-icon>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="Aminities-ticket">
+                  <div class="ticket-icon">
+                    <ion-icon name="fitness-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="ticket-title">Medical Facility</h3>
+
+                  <div class="ticket-btn">
+                    <ion-icon name="arrow"></ion-icon>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="blogs" id="blogs">
+          <div class="box">
+            <p class="subtitle">Reviews</p>
+
+            <h2 class="h2 section-title">Customer Reviews</h2>
+
+            <ul class="blogs-list has-scrollbar">
+              <li>
+                <div class="blogs-ticket">
+                  <figure class="ticket-banner">
+                    <img src="Room1.jpg" alt="Luxury Rooms" class="width" />
+                  </figure>
+
+                  <div class="blogs-content">
+                    <div class="blogs-content-top">
+                      <ul class="ticket-meta-list">
+                        <li>
+                          <a href="" class="ticket-meta-link">
+                            <ion-icon name="person"></ion-icon>
+
+                            <span>by: Owner</span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="" class="ticket-meta-link">
+                            <ion-icon name="pricetags"></ion-icon>
+
+                            <span>Rooms</span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <h3 class="h3 blogs-title">
+                        <a href="">The Most Luxurious Rooms</a>
+                      </h3>
+                    </div>
+
+                    <div class="blogs-content-bottom">
+                      <div class="publish-date">
+                        <ion-icon name="calendar"></ion-icon>
+
+                        <time datetime="2022-21-07">July 21, 2022</time>
+                      </div>
+
+                      <a href="" class="read-more-btn">Know More</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blogs-ticket">
+                  <figure class="ticket-banner">
+                    <img
+                      src="room5.webp"
+                      alt="Best Place to Live"
+                      class="width"
+                    />
+                  </figure>
+
+                  <div class="blogs-content">
+                    <div class="blogs-content-top">
+                      <ul class="ticket-meta-list">
+                        <li>
+                          <a href="" class="ticket-meta-link">
+                            <ion-icon name="person"></ion-icon>
+
+                            <span>by: Owner</span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="" class="ticket-meta-link">
+                            <ion-icon name="pricetags"></ion-icon>
+
+                            <span>Abode Rooms</span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <h3 class="h3 blogs-title">
+                        <a href="">Best Place to Live</a>
+                      </h3>
+                    </div>
+
+                    <div class="blogs-content-bottom">
+                      <div class="publish-date">
+                        <ion-icon name="calendar"></ion-icon>
+
+                        <time datetime="2022-22-06">June 22, 2022</time>
+                      </div>
+
+                      <a href="" class="read-more-btn">Know More</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blogs-ticket">
+                  <figure class="ticket-banner">
+                    <img
+                      src="room3.webp"
+                      alt="Renovated Rooms with all Facility"
+                      class="width"
+                    />
+                  </figure>
+
+                  <div class="blogs-content">
+                    <div class="blogs-content-top">
+                      <ul class="ticket-meta-list">
+                        <li>
+                          <a href="" class="ticket-meta-link">
+                            <ion-icon name="person"></ion-icon>
+
+                            <span>by: Owner</span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="" class="ticket-meta-link">
+                            <ion-icon name="pricetags"></ion-icon>
+
+                            <span>Room</span>
+                          </a>
+                        </li>
+                      </ul>
+
+                      <h3 class="h3 blogs-title">
+                        <a href="">Renovated Drawing-Rooms</a>
+                      </h3>
+                    </div>
+
+                    <div class="blogs-content-bottom">
+                      <div class="publish-date">
+                        <ion-icon name="calendar"></ion-icon>
+
+                        <time datetime="2022-27-04">Apr 27, 2022</time>
+                      </div>
+
+                      <a href="" class="read-more-btn">Know More</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+        <section class="upper-footer-box">
+          <div class="box">
+            <div class="upper-footer-box-ticket">
+              <div class="ticket-content">
+                <h2 class="h2 ticket-title">
+                  Are you searching for your dream home?
+                </h2>
+
+                <p class="ticket-text">
+                  We can help you to get you a dream home
+                </p>
+              </div>
+
+              <button class="btn upper-footer-box-btn">
+                <span>Know more</span>
+
+                <ion-icon name="arrow"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="footer" id="contact">
+      <div class="first-footer">
+        <div class="box">
+          <div class="brand">
+            <ul class="contact-list">
+              <li>
+                <a href="" class="contact-link">
+                  <ion-icon name="icon-location"></ion-icon>
+
+                  <address>403, sitapura, jaipur</address>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+0987654321" class="contact-link">
+                  <ion-icon name="call-icon"></ion-icon>
+
+                  <span>+91-1234567890</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:abode@gmail.com" class="contact-link">
+                  <ion-icon name="icon-mail"></ion-icon>
+
+                  <span>abode@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="social-list">
+              <li>
+                <a href="" class="social-link">
+                  <ion-icon name="facebook-icon"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="social-link">
+                  <ion-icon name="twitter-icon"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="social-link">
+                  <ion-icon name="instagram-icon"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="social-link">
+                  <ion-icon name="pinterest-icon"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="second-footer-box">
+            <ul class="list-footer">
+              <li>
+                <p class="list-footer-title">Company</p>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">AboutUs</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Blogs</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">All Products</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Our Location</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">QNA</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">ContactUs</a>
+              </li>
+            </ul>
+
+            <ul class="list-footer">
+              <li>
+                <p class="list-footer-title">Services</p>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Order tracking</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Wish List</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Login</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">My account</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Terms & Conditions</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Promotional Offers</a>
+              </li>
+            </ul>
+
+            <ul class="list-footer">
+              <li>
+                <p class="list-footer-title">Customer-Care</p>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Login</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">My account</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">WishList</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">Order tracking</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">QNA</a>
+              </li>
+
+              <li>
+                <a href="" class="second-footer">ContactUs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-footer">
+        <div class="box">
+          <p class="copyright">
+            &copy; 2022 <a href="">abode homes</a>. All Rights
+            Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navbar");
+        if (x.className === "navbar") {
+          x.className += " active";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
