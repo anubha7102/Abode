@@ -1,9 +1,9 @@
 <?php
 
-$server = "localhost";
-$user = "root";
-$password = "";
-$db = "xenonstack";
+$server = "remotemysql.com";
+$user = "3VXbvNbOK5";
+$password = "bHDHe4pOUa";
+$db = "3VXbvNbOK5";
 
 $con = mysqli_connect($server,$user,$password,$db);
 
